@@ -16,7 +16,7 @@
           "category": "Contributed",
           "url": "https://github.com/StanleyC1/XCJXT-arduino-esp32/releases/download/v3.3.10/esp32-3.3.10.zip",
           "archiveFileName": "esp32-3.3.10.zip",
-          "checksum": "SHA-256:7B082CAE1200C9BE9BB533CEE9D9B63D5A3D78393C31AF91ACE3578D018DE220",
+          "checksum": "SHA-256:54C21309D6D264D7B08071137ED80F75FBE704DF2B1B2BB8D51E1460A9CFA66A",
           "size": "21052330",
           "boards": [
             {"name": "XCJXT"}
@@ -24,28 +24,23 @@
           "toolsDependencies": [
             {
               "packager": "esp32",
-              "version": "3.3.10",
-              "name": "xtensa-esp32-elf-gcc"
+              "name": "esp-x32",
+              "version": "2601"
             },
             {
               "packager": "esp32",
-              "version": "3.3.10",
-              "name": "xtensa-esp32s2-elf-gcc"
+              "name": "esp32-libs",
+              "version": "3.3.10"
             },
             {
               "packager": "esp32",
-              "version": "3.3.10",
-              "name": "xtensa-esp32s3-elf-gcc"
+              "name": "esp32s3-libs",
+              "version": "3.3.10"
             },
             {
               "packager": "esp32",
-              "version": "3.3.10",
-              "name": "esp32-arduino-libs"
-            },
-            {
-              "packager": "esp32",
-              "version": "3.3.10",
-              "name": "esptool_py"
+              "name": "esptool_py",
+              "version": "5.3.0"
             }
           ]
         }
